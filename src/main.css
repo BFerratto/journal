@@ -1,0 +1,48 @@
+#navbar{
+  position: fixed;
+  width: 100%;
+  background-color: #417D80;
+  min-height: 4.5rem;
+  top: 0;
+}
+body{
+
+  margin: 4.5rem 0 0 0;
+  height: 200%;
+  font-size: 15px;
+  font-family:helvetica;
+}
+h1{
+  margin: 0 0;
+}
+.content{
+  width: 85%;
+  min-width: 1024px;
+  margin: 0 auto;
+}
+header .content{
+  background-color: inherit;
+}
+header .content > *,header .userContent > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h3{
+  font-size: 4em;
+}
+
+.photo{
+  width: 2rem;
+  height: 2rem;
+  background-color: green;
+}
+.userContent {
+  float:right;
+}
+.userContent > * {
+  display:inline-block;
+  vertical-align: middle;
+}
+body > .content{
+  padding-top: 1rem;
+}
