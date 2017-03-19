@@ -4,11 +4,15 @@
   background-color: #417D80;
   min-height: 4.5rem;
   top: 0;
+  z-index: 5;
+}
+.mce-notification{
+  z-index: 4 !important;
 }
 body{
 
   margin: 4.5rem 0 0 0;
-  height: 200%;
+  height: 200vh;
   font-size: 15px;
   font-family:helvetica;
 }
@@ -45,4 +49,7 @@ h3{
 }
 body > .content{
   padding-top: 1rem;
+}
+#sendButton{
+  float: right;
 }
